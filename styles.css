@@ -69,3 +69,9 @@ footer {
 .experience {
 	padding-bottom: 1rem;
 }
+.guide {
+	text-align: center;
+	display: inline;
+	padding: 10px 40px;
+
+}
