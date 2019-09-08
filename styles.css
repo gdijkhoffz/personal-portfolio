@@ -16,8 +16,8 @@ p {
 	text-align: center;
 	margin: 40px;
 }
-footer {
-	margin-bottom: 10px;
+.nav {
+	margin-bottom: 25px;
 	text-align: center;
 }
 .wrapper {
@@ -57,4 +57,7 @@ footer {
 	text-align: center;
 	display: inline;
 	padding: 10px 40px;
+}
+.experience-list {
+	list-style-type: none;
 }
