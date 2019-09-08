@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--styles-->
+		<link rel="stylesheet" href="https://s3.amazonaws.com/gabycodes.com/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap" rel="stylesheet">
+		<meta charset="utf-8">
+		<title>Gabriela Dijkhoffz</title>
+	</head>
+	<body onload="typeWriter()">
+		<div class="wrapper-index">
+			<div class="header">
+				<h1 id="typewriter"></h1>
+			</div>
+			<ul class="list">
+				<li class="main-list-items left-li"><a href="about.html">about</a></li>
+				<li class="main-list-items"><a href="experience.html">experience</a></li>
+				<li class="main-list-items right-li"><a href = "mailto: gabriela.dijkhoffz@knights.ucf.edu">contact</a></li>
+			</ul>
+		</div>
+		<script>
+		var i = 0;
+		var txt = "hi i'm gaby"; /* The text */
+		var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+		function typeWriter() {
+		  if (i < txt.length) {
+		    document.getElementById("typewriter").innerHTML += txt.charAt(i);
+		    i++;
+		    setTimeout(typeWriter, speed);
+  			}
+		}
+		</script>
+	</body>
+</html>
