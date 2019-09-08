@@ -18,6 +18,26 @@ p {
 }
 footer {
 	margin-bottom: 10px;
+	text-align: center;
+}
+.wrapper {
+	display: grid;
+	justify-items: center;
+	align-content: center;
+	grid-template-rows: auto;
+}
+.wrapper-index {
+	display: grid;
+	justify-items: center;
+	align-content: center;
+	margin-top: 15%;
+}
+.header {
+	font-size: 2vw;
+}
+.main {
+	place-self: center;
+	width: 50%;
 }
 .main-list {
 	list-style-type: none;
@@ -27,51 +47,14 @@ footer {
 	font-size: 2.5vw;
 	margin: auto 3em auto 2em;
 }
-.experience-list {
-	list-style-type: none;
-	font-size: .8rem;
-}
-.container {
-	display: flex;
-	flex-flow: column wrap;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-}
-.title {
-	align-self: center;
-	font-size: 3.5vw;
-}
-.row {
-	align-self: center;
-	font-weight: bold;
-	text-align: center;
-}
 .left-li {
 	float: left;
 }
 .right-li {
 	float: right;
 }
-.main {
-	flex: 2;
-}
-.description {
-	font-size: .8rem;
-	text-align: left;
-	padding: .7em 0 .7em 0;
-}
-.item {
-	margin: auto 4rem auto 4rem;
-	font-weight: bold;
-	text-align: left;
-}
-.experience {
-	padding-bottom: 1rem;
-}
 .guide {
 	text-align: center;
 	display: inline;
 	padding: 10px 40px;
-
 }
